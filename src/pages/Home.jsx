@@ -49,12 +49,12 @@ export default function Home() {
   return (
     <div className="app">
       <div className="app__container">
-        <header className="app__header">
+        <div className="app__header">
           <h1 className="app__title">Каталог товаров</h1>
           <p className="app__subtitle">
             Нажмите на карточку, чтобы открыть детали
           </p>
-        </header>
+        </div>
 
         <SearchBar value={query} onChange={setQuery} />
 
