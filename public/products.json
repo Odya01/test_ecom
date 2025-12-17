@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Смарт-часы X100",
+    "price": 7490,
+    "category": "Гаджеты",
+    "image": "https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg",
+    "description": "Водонепроницаемые часы с GPS, уведомлениями и долгой автономностью."
+  },
+  {
+    "id": 2,
+    "title": "Беспроводные наушники AirPulse",
+    "price": 5990,
+    "category": "Аудио",
+    "image": "https://images.pexels.com/photos/3394651/pexels-photo-3394651.jpeg",
+    "description": "Шумоподавление, мощный бас, стабильное соединение и комфортная посадка."
+  },
+  {
+    "id": 3,
+    "title": "Портативная колонка SoundBrick",
+    "price": 4590,
+    "category": "Аудио",
+    "image": "https://images.pexels.com/photos/63703/pexels-photo-63703.jpeg",
+    "description": "Компактная колонка с громким звуком и длительным временем работы."
+  },
+  {
+    "id": 4,
+    "title": "Магнитный Power Bank 10000",
+    "price": 4290,
+    "category": "Зарядка",
+    "image": "https://images.pexels.com/photos/4526406/pexels-photo-4526406.jpeg",
+    "description": "Тонкий пауэрбанк с магнитным креплением, быстрой зарядкой и индикатором."
+  },
+  {
+    "id": 5,
+    "title": "Умная LED-лампа ColorBeam",
+    "price": 2490,
+    "category": "Дом",
+    "image": "https://images.pexels.com/photos/577514/pexels-photo-577514.jpeg",
+    "description": "Миллионы цветов, управление со смартфона, сценарии и таймер."
+  },
+  {
+    "id": 6,
+    "title": "Механическая клавиатура KeyPro TKL",
+    "price": 6990,
+    "category": "Периферия",
+    "image": "https://images.pexels.com/photos/2115217/pexels-photo-2115217.jpeg",
+    "description": "Компактный формат без цифрового блока, приятный ход клавиш и подсветка."
+  }
+]
