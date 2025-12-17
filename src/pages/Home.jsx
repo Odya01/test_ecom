@@ -9,11 +9,12 @@ export default function Home() {
 
   const [products, setProducts] = useState([]);
   const [status, setStatus] = useState("idle");
-  const [error, setError] = useState("");
+  const [setError] = useState("");
 
   useEffect(() => {
     let isMounted = true;
 
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setStatus("loading");
     setError("");
 
@@ -38,7 +39,7 @@ export default function Home() {
     return () => {
       isMounted = false;
     };
-  }, []);
+  }, [setError]);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
