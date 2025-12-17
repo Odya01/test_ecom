@@ -9,14 +9,13 @@ export default function Home() {
 
   const [products, setProducts] = useState([]);
   const [status, setStatus] = useState("idle");
-  const [setError] = useState("");
+  const [error, setError] = useState("");
 
   useEffect(() => {
     let isMounted = true;
 
     // eslint-disable-next-line react-hooks/set-state-in-effect
     setStatus("loading");
-    setError("");
 
     fetch("/products.json")
       .then((res) => {
@@ -39,7 +38,7 @@ export default function Home() {
     return () => {
       isMounted = false;
     };
-  }, [setError]);
+  }, []);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -60,7 +59,9 @@ export default function Home() {
         <SearchBar value={query} onChange={setQuery} />
 
         {status === "loading" && <div className="state">Загрузка товаров…</div>}
-        {status === "error" && <div className="state state--error">Ошибка</div>}
+        {status === "error" && (
+          <div className="state state--error">Ошибка: {error}</div>
+        )}
 
         {status === "success" && (
           <ProductGrid products={filtered} onSelect={(p) => setSelected(p)} />
