@@ -226,7 +226,6 @@ a {
 }
 
 .modal__imageWrap {
-  /* max-height: 400px; */
   height: 400px;
   background: rgba(0, 0, 0, 0.2);
 }
@@ -305,5 +304,5 @@ a {
 
 .state--error {
   border-color: rgba(255, 77, 77, 0.5);
-  color: #ffd1d1;
+  color: rgb(255, 209, 209);
 }

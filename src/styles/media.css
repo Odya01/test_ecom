@@ -1,0 +1,40 @@
+@media (max-width: 500px) {
+  .modal__content {
+    display: flex;
+    flex-direction: column;
+    overflow-y: scroll;
+  }
+
+  .modal__imageWrap {
+    height: 250px;
+  }
+
+  .modal__panel {
+    max-height: calc(100vh - 40px);
+    overflow-y: scroll;
+  }
+
+  .modal__close {
+    background-color: #3647e1;
+  }
+
+  .modal__close:hover {
+    color: #fff;
+  }
+
+  .card__body {
+    padding: 15px;
+  }
+
+  .app__title {
+    font-size: 28px
+  }
+
+  .app__subtitle {
+    font-size: 18px;
+  }
+
+  .app__header {
+    gap: 10px;
+  }
+}
